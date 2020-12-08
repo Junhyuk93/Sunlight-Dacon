@@ -15,3 +15,7 @@ order = bithumb.buy_market_order("EVZ",30)
 # 최소 금액 1000원
 # evz 한개 가격 37원
 print(order)
+
+
+# order = bithumb.buy_limit_order("EVZ",37,20)
+# 시장가 말고 지정해서 구매도 가능하다 
